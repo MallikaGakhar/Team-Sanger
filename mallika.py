@@ -28,7 +28,7 @@ def hamming_distance(slack_uname,twitter):
     else:
        count=0
        for i in range(len(slack_uname)):
-           if s_uname[i]!=twitter[i]:
+           if slack_uname[i]!=twitter[i]:
                count +=1
     return count
 
